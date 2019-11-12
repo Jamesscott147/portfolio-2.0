@@ -1,0 +1,353 @@
+
+
+/* ---Black death infographic ---*/
+
+/* ---intro ---*/
+
+.bdintro {
+    display: grid;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    background-color: #DF5B26;
+}
+
+.introleft{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introleft h1 {
+    font-size: 4em;
+    color: white;
+}
+
+.introright {
+    padding: 30px;
+}
+
+/* ---Bd Brief ---*/
+
+.bdbrief {
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 1fr;
+    height: auto;
+    padding: 50px;
+    background-color: #DF5B26;
+    
+}
+
+.bdbriefl{
+    grid-column: 2/3;
+}
+
+
+.bdbriefl h2{
+    grid-column:2/3;
+    color: white;
+}
+
+.bdbriefl p{
+    opacity: 0.8;
+    grid-column: 2/3;
+    color: white;
+}
+
+
+
+
+.bdbriefr h2{
+    grid-column: 3/4;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.bdbriefr {
+    display: flex;
+    justify-content: center;
+    grid-column: 3/4;
+}
+
+.bdbriefr ul{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.bdbriefr ul li{
+    opacity: 0.8;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color: white;
+}
+
+.bdresearch {
+    display:grid;
+    grid-template-columns:1fr 4fr 1fr;
+    padding: 50px;
+}
+
+.bdresearch h2{
+    grid-column: 2/3;
+    color: #112A39
+}
+
+.bdresearch p{
+    grid-column: 2/3;
+    color: #112A39;
+}
+
+.bdresearch a{
+    text-decoration: none;
+    color:#50B99F;
+    font-family: 'red hat display', sans-serif;
+    font-weight: 400;
+}
+
+.bdresearch a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+/* --- bd illustrations ---*/
+
+.bdillustrations {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: #DF5B26;
+    padding: 50px;
+}
+
+.bdillustrations h2{
+    grid-column: 2/3;
+    color: white;
+}
+
+.bdillustrations img{
+    grid-column: 2/3;
+    color: white;
+}
+
+.bdillustrations p{
+    grid-column: 2/3;
+    color: white;
+}
+
+.bdillustrations img {
+    margin-top: 20px;
+}
+
+/* --- infographic --- */
+
+.infograph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.infograph h2 {
+    font-size: 2em;
+}
+
+.infograph a{
+    text-decoration: none;
+    color:#50B99F; 
+}
+
+.infograph a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+
+/* --- bdsketches ---*/
+
+.bdsketch {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 50px;
+}
+
+
+
+.bdsketch p, h2 {
+    grid-column:2/3;
+    color: #112A39;
+}
+
+.bdsketch img {
+    height: 300px;
+    padding: 10px;
+}
+
+.bdsketches {
+    display: inline;
+    grid-column: 2/3;
+}
+
+.bdcard {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --- end of black death infographic ---*/
+
+/* --- WALK case Study --- */
+
+.walk-case {
+}
+
+.walk-case p {
+    color: #112A39;
+}
+
+/* --- wcbrief --- */
+
+.wcintro {
+    background-image: url(Images/walkintro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.wcbrief {
+    background-color: #FFC938;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 40px 0px 40px 0px;
+    font-size: 1.3em;
+}
+
+.wcbriefl {
+    grid-column: 3/8;
+}
+
+.wcbriefr {
+   grid-column: 9/11;  
+}
+
+.wcbriefr ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wcbriefr ul li{
+    font-family: 'roboto', sans-serif;
+}
+
+/* --- wcabout ---*/
+.wcabout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-size: 1.3em;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.wcabout h2 {
+    grid-column: 3/5;
+    
+}
+
+.wcabout p {
+    grid-column: 3/8;
+}
+
+.wcabout img {
+    grid-column: 9/11;
+    border-radius: 5%;
+}
+
+
+/* --- wc process ---*/
+
+.wcprocess {
+    background-color: #FFC938;
+    padding: 200px 20px 200px 20px;
+    
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    font-size: 1.3em;
+}
+
+.wcprocess h2, p{
+    grid-column: 3/11;
+}
+
+.wcprocess a{
+    text-decoration: none;
+    color: #50B99F;
+}
+
+.wcprocess a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+
+
+.wprocess {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+}
+
+
+
+/* --- wcfinished ---*/
+.wfinished {
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.wfinished ul{
+    list-style-type: none;
+}
+
+.wfinished img {
+    grid-column:2/3;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* --- Wc Proto ---*/
+.wcproto {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.wcproto h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    font-size: 2em;
+}
+
+.wcproto a{
+    text-decoration: none;
+    color:#50B99F;
+   
+}
+
+.wcproto a:hover {
+    color: #112A39;
+    transition: ease-in, 0.2s;
+}
+
+
+
+
+
+
